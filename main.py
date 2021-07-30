@@ -197,7 +197,7 @@ if __name__ == '__main__':
             speak("I am your virtual assistant created by Shashank")
 
         elif 'reason for you' in query:
-            speak("I was created as a Minor project by Mister Shashank ")
+            speak("I was created as a Minor project by Shashank ")
 
         elif 'change background' in query:
             ctypes.windll.user32.SystemParametersInfoW(20,
@@ -305,11 +305,10 @@ if __name__ == '__main__':
                     if ch:
                         Pypdf.write(ch)
 
-        # NPPR9-FWDCX-D2C8J-H872K-2YT43
         elif "jarvis" in query:
 
             wishMe()
-            speak("Jarvis 1 point o in your service Mister")
+            speak("Jarvis 1 point o in your service ")
             speak(assname)
 
         elif "weather" in query:
@@ -360,15 +359,14 @@ if __name__ == '__main__':
 
         elif "Good Morning" in query:
             speak("A warm" + query)
-            speak("How are you Mister")
+            speak("How are you ")
             speak(assname)
 
-        # most asked question from google Assistant
         elif "will you be my gf" in query or "will you be my bf" in query:
             speak("I'm not sure about, may be you should give me some time")
 
         elif "how are you" in query:
-            speak("I'm fine, glad you me that")
+            speak("I'm fine, glad you asked me that")
 
         elif "i love you" in query:
             speak("Fuck Off")
